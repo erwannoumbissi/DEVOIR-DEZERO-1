@@ -1,0 +1,85 @@
+*{
+    margin: o;
+    padding: o;
+    font-family:  poppins ;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(64, 64, 232);
+}
+.snowman{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.head{
+    width: 180px;
+    height: 180px;
+    background: #fff;
+    border-radius: 50%;
+}
+.eyes span{
+    display: inline-block;
+    width: 15px;
+    height: 25px;
+    background: #333;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+.eyes{
+    text-align: center;
+    margin-top: 40px;
+}
+.nose{
+    width: 15px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    margin: auto;
+}
+.hand1{
+    background-color: #84382a;
+    height: 10px;
+    width: 130px;
+    position: relative;
+    bottom: 68px;
+    transform: rotate(70deg);
+    left: 90px;
+}
+.h1{
+    background-color: #84382a;
+    height: 10px;
+    width: 130px;
+    position: relative;
+    bottom: 10px;
+    transform: rotate(45deg);
+    right: 90px;
+}
+.mouth{
+    width: 40px;
+    height: 15px;
+    background: #333;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+
+.body{
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    margin-top: -40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.body span{
+    width: 12px;
+    height: 12px;
+    background: #333;
+    border-radius: 50%;
+    margin: 5px;
+}

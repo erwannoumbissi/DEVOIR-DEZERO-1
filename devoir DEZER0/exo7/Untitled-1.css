@@ -1,0 +1,41 @@
+
+form{
+    width: 200;
+    height: 30;
+    padding: 5px;
+    background-color:white;
+    border-color: blue;  
+}
+
+.table{
+    border-color: blue;
+    left: 50%;
+    right: 50%;
+    
+}
+.c100 {
+    width: 50;
+    margin: 50px;
+    right: 30%;
+}
+td{
+    background-color: rgb(132, 127, 121);
+    border-color: blue;
+}
+label{
+    display: inline-block;
+    min-width: 25;
+}
+input [type="submit"]{
+    color: blue;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 2px solid;
+}
+input [type="submit"]:hover{
+    background-color: blueviolet;
+    color: aqua;
+    cursor: #fff;
+    box-shadow: 5px #777;
+}
